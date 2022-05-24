@@ -1,0 +1,8 @@
+- Python3
+- PyTorch (> 0.4.1)
+- torchvision
+- numpy
+- scipy
+- pandas
+- tqdm
+- matplotlib
