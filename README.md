@@ -47,10 +47,10 @@ python train_with_distillation.py --setting a
 
 # ImageNet
 
-## In 2016, the Google deepmind team extracted a small part (about 3gb in size) from the Imagenet dataset and produced the mini Imagenet dataset, which has 100 categories. Each category has 600 pictures, 60000 in total (all files ending in. JPG), and the size of the images is not fixed.It is not feasible to train your classification network directly with mini imgenet data set, because train CSV and val.csv are not sampled from each category, so we need to build a new train CSV and val.csv files.
+In 2016, the Google deepmind team extracted a small part (about 3gb in size) from the Imagenet dataset and produced the mini Imagenet dataset, which has 100 categories. Each category has 600 pictures, 60000 in total (all files ending in. JPG), and the size of the images is not fixed.It is not feasible to train your classification network directly with mini imgenet data set, because train CSV and val.csv are not sampled from each category, so we need to build a new train CSV and val.csv files.
 
-## Download the data, PAN:https://pan.baidu.com/s/1tD8xdkOO6MiWuThOff07aA Code：ZMMM
-## And use python ./devide.py to re-build new lists.
+Download the data, PAN:https://pan.baidu.com/s/1tD8xdkOO6MiWuThOff07aA Code：ZMMM
+And use python ./devide.py to re-build new lists.
 
 ## Settings
 
@@ -62,5 +62,5 @@ python train_with_distillation.py --setting a
 ## The teacher model will be automatically downloaded from PyTorch sites.
 
 ## Training
-ython train_with_distillation.py
+python train_with_distillation.py
 
